@@ -1,0 +1,165 @@
+#top{
+/*font-family: 'Raleway', sans-serif;*/
+/*margin-top: 30px;*/
+}
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+.description p {
+  font-size: 20px;
+  font-family: 'Marck Script', cursive;
+}
+img{
+  max-width: 100%
+}
+.heading{
+  padding: 5px;
+}
+.logo{
+  padding: 15px;
+}
+
+.name{
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+
+}
+.sub{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+hr{
+  border-bottom: 1px solid #7d97ad;
+  border-bottom-width: 5px;
+}
+
+.profile-pic{
+  padding: 15px;
+}
+#me{
+  text-align: center;
+}
+#me .welcome{
+  margin-bottom: 10px;
+}
+#me h2{
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-family: 'Marck Script', cursive;
+
+}
+.pic img{
+  border-radius: 50%;
+  border: 1px solid #7796AF;
+  padding: 2px
+}
+
+#work{
+  margin-bottom: 30px;
+
+}
+
+
+#work figure {
+    display: inline-block;
+
+}
+
+#work figure img {
+    vertical-align:top;
+    border-radius: 5px;
+}
+#work figure figcaption {
+
+    text-align: center;
+}
+#work a{
+  font-size: 16px;
+  color: black;
+
+}
+#work .featured-work{
+  padding: 15px;
+}
+.project h3{
+  font-weight: bold;
+}
+.project-sec{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:459px){
+  .name{
+    font-size: 30px;
+  }
+}
+ @media screen and (max-width: 991px){
+   .about{
+      margin-top: -30px;
+    }
+ }
+ @media screen and (min-width: 992px){
+   .about{
+      text-align: right
+    }
+    .pic img{
+      margin-top: -50px;
+    }
+ }
+
+@media screen and (max-width: 991px){
+   #work .project{
+      margin-bottom: 20px
+    }
+ }
+
+ .footer-main{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 18px sans-serif;
+  padding: 45px;
+}
+.footer-main .footer-name, .footer-right{
+  color:  #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+
+  .footer-main{
+    padding: 35px;
+  }
+  .footer-main .footer-name{
+    font-size: 12px;
+  }
+
+}
+
+.footer-main .footer-icons{
+	margin-top: 30px;
+}
+
+.footer-main .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
