@@ -122,8 +122,8 @@ hr{
   font: normal 18px sans-serif;
   padding: 45px;
 }
-.footer-main .footer-name, .footer-right{
-  color:  #8f9296;
+.footer-main .footer-name, .footer-rights{
+  color:  #8f9297;
   font-size: 14px;
   margin: 0;
 }
@@ -139,23 +139,21 @@ hr{
 
 }
 
-.footer-main .footer-icons{
+.footer-main .footer-icon{
 	margin-top: 30px;
 }
 
-.footer-main .footer-icons a{
+.footer-main .footer-icon a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
-
-	font-size: 20px;
+  margin-right: 3px;
+	margin-bottom: 5px;
+	font-size: 19px;
 	color: #ffffff;
 	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
+	line-height: 34px;
 }
